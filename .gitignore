@@ -1,0 +1,26 @@
+# Virtual Environments (DO NOT UPLOAD)
+venv/
+.venv/
+env/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code Workspace Settings
+.vscode/
+
+# Environment Variables & Secrets (Keep your API keys safe)
+.env
+.streamlit/secrets.toml
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Local Data & Logs (Prevents uploading massive historical data files)
+*.log
+*.csv
+*.sqlite3
