@@ -28,7 +28,7 @@ from __future__ import annotations
 import logging
 import os
 import sys
-
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 import streamlit as st
 
 # ── Ensure the project root is importable regardless of invocation cwd ──────
